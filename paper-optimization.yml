@@ -1,0 +1,37 @@
+XipserCloud PaperMC Optimization (Anti-Lag & Anti-XRay)
+​--- ANTI-LAG GLOBAL ---
+​settings:
+chunk-loading:
+max-concurrent-reads: 6 # Batasi bacaan chunk
+save-player-data: true
+spam-limiter:
+incoming-packet-threshold: 300
+recipe-request-limit: 20
+book-edit-rate-limit: 10
+watchdog:
+early-warning-every: 5000 # Warning dini jika lag server
+​--- ANTI-X-RAY (PENTING UNTUK SURVIVAL) ---
+​anti-xray:
+enabled: true
+engine-mode: 2 # Mode 2: Paling optimal untuk performa
+max-block-height: 64
+update-radius: 2 # Radius kecil
+hidden-blocks:
+- copper_ore
+- gold_ore
+- iron_ore
+- coal_ore
+- lapis_ore
+- diamond_ore
+- redstone_ore
+- lit_redstone_ore
+- emerald_ore
+- nether_gold_ore
+- nether_quartz_ore
+- ancient_debris
+filler-blocks:
+- stone
+- dirt
+- gravel
+EOF
+​File 5: EssentialsX Config (plugins/Essentials/config.yml)
