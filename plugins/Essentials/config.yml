@@ -1,0 +1,19 @@
+XipserCloud EssentialsX Configuration (Customized)
+​Mengaktifkan Player Heads, Kit Awal, dan BUKU PANDUAN OTOMATIS.
+​teleport-safety: true
+starting-balance: 0.0
+​kits:
+tools:
+delay: 10
+items:
+- written_book 1 title:&6&lPanduan_XipserCloud author:&bPaongdev pages:8 lore:Panduan_Resmi_Server_XipserCloud
+- 284 1 name:&6Sekop_Emas_CLAIM # Golden Shovel (284) untuk Claim
+- 294 1 name:&6Cangkul_Emas_AUTHORIZE # Golden Hoe (294) untuk Otorisasi Pukul
+- 280 1 name:&fTongkat_Pengecek_Wilayah # Stick (280) untuk cek batas claim
+initial-kit: tools # AKTIF: Memberikan kit 'tools' saat pemain pertama kali masuk
+​player-kills-drop-heads: true # AKTIF: Player Head (Kepala Pemain) jatuh saat dibunuh.
+​tpa-cooldown: 5
+homes:
+max-homes: 3
+EOF
+​Semua file sudah lengkap dan skrip start.sh akan menjalankan semua instalasi dan konfigurasi secara otomatis saat pertama kali dijalankan. Selamat menjalankan server XipserCloud Anda!
